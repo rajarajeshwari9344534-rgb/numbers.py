@@ -965,12 +965,12 @@
 
 
 
-str="heeellooooo!1"
-emp=""
-for ch in str:
-    if ch not in emp:
-        emp+=ch
-print(emp)        
+# str="heeellooooo!1"
+# emp=""
+# for ch in str:
+#     if ch not in emp:
+#         emp+=ch
+# print(emp)        
 
 
 

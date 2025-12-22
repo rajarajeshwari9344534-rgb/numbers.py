@@ -835,15 +835,42 @@
 # print(max_mark, max_name)       
 
 
-# season = input("enter a season::")
+
+
+
+# season = input("Enter a season: ").lower()
+
 # city = ["chennai", "trichy", "coimbatore", "bangalore", "salem"]
 # summer  = [38.0, 40.0, 32.0, 30.0, 37.0]
 # monsoon = [30.0, 32.0, 28.0, 25.0, 29.0]
 # winter  = [25.0, 24.0, 20.0, 18.0, 23.0]
 
-# season=input("enter the sesason")
-# max=season[0]
-# for i in range(1,len(season)):
+
+# data = {
+#     "summer": summer,
+#     "monsoon": monsoon,
+#     "winter": winter
+# }
+
+# if season not in data:
+#     print("Invalid season")
+# else:
+#     sea= data[season]
+#     max_season = sea[0]
+#     max_city=city[0]
+#     for i in range(1, len(sea)):
+#         if sea[i] > max_season:
+#             max_season = sea[i]
+#             max_city = city[i]
+
+#     print( max_city, max_season)
+
+
+
+
+
+    
+# for i in range(0,len(season)):
 #     if season[i]>max:
 #         max=season[i]
 #         name=city[i]
@@ -893,7 +920,8 @@
 #         if j[i] in "aeiou": 
 #             count+=1
 #             if j[i] ==" ":
-#                max=j
+#                max=j               
+
 
 
 
@@ -971,6 +999,120 @@
 #     if ch not in emp:
 #         emp+=ch
 # print(emp)        
+           
+
+
+
+# str="A3@b5"
+# letters=0
+# digits=0
+# others=0
+
+# for ch in str:
+#     if ch.islower():
+#        letters+=1 
+#     elif ch.isupper():
+#        letters+=1
+#     elif ch in "1234567890":
+#         digits+=1
+#     else:
+#         others+=1
+# print("letters:",letters,"digits:",digits,"others:",others)     
+# 
+
+# lst=[3, 5, 2, 6, 7]
+# count=0
+# for i in range (len(lst)):
+#     for j in range (1,len(lst)):
+#         if lst[i]<lst[j]:
+#             count+=1
+# print(count)   
+
+
+
+# input=[3, -2, 8, -5, 0]
+# sum=0
+# for i in range (len(input)):
+#     if input[i]<0:
+#         sum+=input[i]
+# print(sum)
+
+
+# str="aaabbccccddeeefffff"
+# count = 1
+# max_count = 1
+# max_char = str[0]
+
+# for i in range(1, len(str)):
+#     if str[i] == str[i-1]:
+#         count += 1
+#     else:
+#         count = 1
+#     if count > max_count:
+#         max_count = count
+#         max_char = str[i]
+# print(max_char,"=",max_count)       
+# 
+
+
+# lst = [2, 3, 4]
+# val = 1
+# for i in lst:
+#     val *= i
+# print(val)
+
+
+
+
+# input= ["ab12", "hello", "9nine", "cat"]
+# num="1234567890"
+# for ch in input:
+#     for i in range(len(ch)):
+#         if ch[i] in num:
+#             print(ch)
+#             break
+
+
+# lst= ["hello", "world", "hello", "ai", "world","world","hello"]
+# emp=[]
+# word=[]
+# for ch in lst:
+#     if ch not in emp:
+#         emp.append(ch)      
+#     else:
+#         if ch not in word:
+#            word.append(ch)
+# print(word)        
+
+
+# arr=[2,3,5,1,4]
+# for i in range(len(arr)):
+#     for j in range(len(arr)-1):
+#         if arr[j]>arr[j+1]:
+#             arr[j],arr[j+1]=arr[j+1],arr[j]
+# print(arr)  
+      
+
+# lst=["ram", "suresh", "alexander", "tom"]
+# str=[]
+# for ch in lst:
+#     if (len(ch))>3:
+#         str.append(ch) 
+# print(str)  
+
+
+# lst=['H','e','l','l','o']
+# emp=[]
+# str=""
+# for i  in range (len(lst)):
+#     if i!=",":
+#       str+=i
+#       emp.append(str)
+# print(emp)    
+
+         
+
+
 
 
 

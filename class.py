@@ -1110,6 +1110,20 @@
 #       emp.append(str)
 # print(emp)    
 
+
+n1 = 8
+n2 = 64
+gcd = 0
+min_val = 0
+if n1 < n2:
+    min_val = n1
+else:
+    min_val = n2
+for i in range(1, min_val + 1):
+    if n1 % i == 0 and n2 % i == 0:
+        gcd = i
+lcm = (n1 * n2) // gcd
+print(lcm)
          
 
 

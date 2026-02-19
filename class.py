@@ -141,7 +141,7 @@
 #         count = count + 1 
 # print("Vowels:", count)
 
-# Write a program to reverse a given string.
+# # Write a program to reverse a given string.
 # str=input()
 # rev=""
 # for i in range (len(str)):
@@ -219,7 +219,7 @@
 
 
 # 5. There is an error while counting the number of words in a given string. Please identify and correct it.
-# text = "I love Python raji sanju"
+# text = "I love Python "
 # count = 1
 # for ch in text:
 #     if ch == " ":
@@ -1111,19 +1111,19 @@
 # print(emp)    
 
 
-n1 = 8
-n2 = 64
-gcd = 0
-min_val = 0
-if n1 < n2:
-    min_val = n1
-else:
-    min_val = n2
-for i in range(1, min_val + 1):
-    if n1 % i == 0 and n2 % i == 0:
-        gcd = i
-lcm = (n1 * n2) // gcd
-print(lcm)
+# n1 = 8
+# n2 = 64
+# gcd = 0
+# min_val = 0
+# if n1 < n2:
+#     min_val = n1
+# else:
+#     min_val = n2
+# for i in range(1, min_val + 1):
+#     if n1 % i == 0 and n2 % i == 0:
+#         gcd = i
+# lcm = (n1 * n2) // gcd
+# print(lcm)
          
 
 

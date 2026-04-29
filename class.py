@@ -87,7 +87,14 @@
 # reversed = words [::-1]
 # reversed_sentence= " ".join(reversed)
 # print(reversed_sentence)
+
+
+# str= "i am raji"
+# word=str.split()
+# words=word[::-1]
+# print(" ".join(words))
  
+
 
 # word = "Python"
 # rev = word[::-1]
@@ -148,9 +155,8 @@
 #     rev=str[i]+rev
 # print(rev)
 
-
 # Check whether a given string is a palindrome or not.
-# text="madam"
+# text="malayalam"
 # rev1= text[::-1]
 # rev=""
 # for i in range (len (text)):
@@ -186,7 +192,6 @@
 #         count += 1
 # print(count)
 
-
 # # 2. There is an error while comparing two strings character by character. Please identify and correct it.
 # s1 = "cat"
 # s2 = "cqt"
@@ -198,7 +203,8 @@
 #     print("Same")
 # else:
 #     print("Different")
-# 
+
+
 # # 3. There is an error while counting spaces in a given sentence. Please identify and correct it.
 # sentence = "Python is fun "
 # spaces = 0
@@ -989,7 +995,7 @@
 # for ch in word:
 #     if ch == s:
 #         count+=1
-# print(count)        
+# print(count)          
 
 
 
@@ -1038,7 +1044,7 @@
 # print(sum)
 
 
-# str="aaabbccccddeeefffff"
+# str="aaabbccccddeeefff"
 # count = 1
 # max_count = 1
 # max_char = str[0]
@@ -1105,7 +1111,7 @@
 # emp=[]
 # str=""
 # for i  in range (len(lst)):
-#     if i!=",":
+#     if [i]!=",":
 #       str+=i
 #       emp.append(str)
 # print(emp)    
@@ -1124,6 +1130,9 @@
 #         gcd = i
 # lcm = (n1 * n2) // gcd
 # print(lcm)
+
+
+
          
 
 
